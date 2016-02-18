@@ -1,5 +1,6 @@
 {
   "directory": "bower_components",
+  "analytics": false,
   "storage": {
           "packages": ".bower-cache",
           "registry": ".bower-registry"
