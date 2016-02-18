@@ -1,16 +1,20 @@
 {
-  "name": "mean",
-  "description": "MEAN.io: A fullstack JavaScript framework powered by MongoDB, ExpressJS, AngularJS, NodeJS.",
-  "version": "0.5.5",
-  "private": false,
-  "author": "Linnovate <mean@linnovate.net>",
-  "contributors": "https://github.com/linnovate/mean/graphs/contributors",
+  "name": "crunching-gsheet",
+  "description": "A prototype to showcase how to integrate crunching.io with Google Sheets, built with MEAN.io",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Norbert Schöpke <norbert.schoepke@gmail.com> (http://www.crunching.io)",
+  "contributors": [
+    "Luis Pando <razonasistemas@gmail.com> (http://www.f6s.com/luisangelpandocastan)"
+  ],
   "mean": "0.5.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/linnovate/mean.git"
   },
-  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "scripts": {
     "start": "node server",
     "mocha": "node tools/test/run-mocha.js",
